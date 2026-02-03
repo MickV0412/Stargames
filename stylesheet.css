@@ -33,7 +33,8 @@ body {
             rgba(0, 0, 0, 0.6),
             transparent);
     backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    border-bottom: 2px solid white;
+    border-radius: 15px;
 }
 
 .site-logo-mini {
