@@ -8,7 +8,7 @@
 
 ## 🎮 About
 
-**Highboard** is a fast-paced multiplayer party board game set in deep space. Players race through a procedurally generated 2.5D starship, encountering aliens, triggering chaos events, and sabotaging their friends in a desperate dash for the escape pods.
+**Astro Escape** is a fast-paced multiplayer party board game set in deep space. Players race through a procedurally generated 2.5D starship, encountering aliens, triggering chaos events, and sabotaging their friends in a desperate dash for the escape pods.
 
 Roll the dice, survive the chaos, and be the first to escape!
 
