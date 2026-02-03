@@ -75,7 +75,7 @@ function draw() {
 
 requestAnimationFrame(draw);
 
-// Logo reveal and auto scroll on load
+// Logo reveal and auto scroll on load (only runs on index.html)
 window.addEventListener("load", () => {
     const logoWrapper = document.querySelector(".logo-wrapper");
     const targetScrollSection =
@@ -100,4 +100,3 @@ window.addEventListener("load", () => {
         }, ANIMATION_MS + EXTRA_DELAY_MS);
     }
 });
-
