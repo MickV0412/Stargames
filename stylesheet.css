@@ -556,6 +556,27 @@ img {
     text-decoration: underline;
 }
 
+@media (max-width: 1024px) {
+    .footer-columns {
+        gap: 6rem;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width: 640px) {
+    .footer-columns {
+        flex-direction: column;
+        align-items: center;
+        gap: 2.5rem;
+        text-align: center;
+    }
+
+    .footer-column a {
+        margin-bottom: 0.6rem;
+    }
+}
+
 @media (max-width: 600px) {
     .footer-bottom {
         flex-direction: column;
