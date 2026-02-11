@@ -592,7 +592,6 @@ h1 {
     box-shadow: 0 0px 6px white;
 }
 
-
 @media (max-width: 1024px) {
     .footer-columns {
         gap: 6rem;
@@ -647,5 +646,24 @@ h1 {
 
     .game-meta {
         order: 2;
+    }
+}
+
+@media (max-width: 900px) {
+    .teams {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .design-team,
+    .development-team {
+        width: 100%;
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 500px) {
+    .team-members {
+        grid-template-columns: 1fr;
     }
 }
